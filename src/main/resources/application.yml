@@ -1,0 +1,15 @@
+spring:
+  data:
+    jpa:
+      generate-ddl: false
+      show-sql: true
+      hibernate:
+        ddl_auto: none
+    h2:
+      console:
+        path: /h2-console
+        enabled: true
+        settings:
+          web-allow-others: true
+server:
+  port: 8888
